@@ -9,4 +9,4 @@ Algorithms Used :
 - Selection Sort
 - Heap Sort
 - Bucket Sort
-- Radix
+- Radix Sort
