@@ -13,3 +13,7 @@ Algorithms Used :
 - Heap Sort
 - Bucket Sort
 - Radix Sort
+
+Other Features :
+- Ability to change array size
+- Slider to change sort speed
