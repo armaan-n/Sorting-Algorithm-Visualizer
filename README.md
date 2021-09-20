@@ -1,5 +1,5 @@
 # Sorting-Algorithm-Visualizer
-This program gives a visual demonstration of how many popular sorting algorithms operate. No third party libraries are used, the pproject was made only using CSS3, HTML5 and Javascript.
+This program gives a visual demonstration of how many popular sorting algorithms operate. No third party libraries are used, the project was made only using CSS3, HTML5 and Javascript.
 
 # Try It Here :
 https://armaan-n.github.io/Sorting-Algorithm-Visualizer/
