@@ -15,11 +15,18 @@ let barAmt = size;
 // Array containing values of bars
 let barArray = [];
 
+// Tracks sorting state
+let sorting = false;
+
 // Initialize bars
 barGen(barAmt);
 
 sortBtn.addEventListener ('click', () => {
-    sortBtn.disabled = true;
+    if (sorting == true) {
+        barGen(barAmt);
+    }
+
+    sorting = true;
 
     switch (algoSelect.options[algoSelect.selectedIndex].text) {
         case 'Quick Sort':
@@ -50,7 +57,7 @@ sortBtn.addEventListener ('click', () => {
 });
 
 randomizeBtn.addEventListener ('click', () => {
-    sortBtn.disabled = false;
+    sorting = false;
     barGen(barAmt);
 });
 
